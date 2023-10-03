@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* Adding a background color to body element */
 body {
     background-color: #d9dcd6;
 }
-
+/* Declaring what fonts the header can include and giving attributes to the header element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +15,20 @@ header {
     color: #ffffff;
 }
 
+/* Setting the Header of the page to be within the line and size */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Styling the header with different colors */
 header h1 #seo {
     color: #d9dcd6;
 }
 
-header div {
+/* Adding attributes to the navbar */
+header navbar ul {
+    list-style-type: none;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,20 +36,19 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
-    list-style-type: none;
-}
-
-header div ul li {
+/* Declaring each list item has to be inline adjusting positioning */
+header navbar ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Adding text color to the unordered list */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* font */
 p {
     font-size: 16px;
 }
@@ -134,7 +137,7 @@ p {
     max-width: 150px;
 }
 
-#search-engine-optimization {
+.search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,7 +146,7 @@ p {
     color: #ffffff;
 }
 
-#online-reputation-management {
+.online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,7 +155,7 @@ p {
     color: #ffffff;
 }
 
-#social-media-marketing {
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,15 +164,15 @@ p {
     color: #ffffff;
 }
 
-#search-engine-optimization img {
+.search-engine-optimization img {
     max-height: 200px;
 }
 
-#online-reputation-management img {
+.online-reputation-management img {
     max-height: 200px;
 }
 
-#social-media-marketing img {
+.social-media-marketing img {
     max-height: 200px;
 }
 
