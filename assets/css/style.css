@@ -84,7 +84,7 @@ p {
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+#search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -93,7 +93,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+#online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -102,7 +102,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -111,15 +111,15 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+#search-engine-optimization img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+#online-reputation-management img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+#social-media-marketing img {
     max-height: 200px;
 }
 
@@ -137,6 +137,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 
 /* Styling for the content on the right side (the benefits) */
 .benefits {
@@ -197,6 +198,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
 
 /* Styling the footer section of the website */
 
