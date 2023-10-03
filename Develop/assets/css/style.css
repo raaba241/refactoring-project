@@ -1,3 +1,4 @@
+/* Generic global styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +8,8 @@
 body {
     background-color: #d9dcd6;
 }
-/* Declaring what fonts the header can include and giving attributes to the header element */
+
+/* Styling for header section  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,20 +17,19 @@ header {
     color: #ffffff;
 }
 
-/* Setting the Header of the page to be within the line and size */
+
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Styling the header with different colors */
+
 header h1 #seo {
     color: #d9dcd6;
 }
 
-/* Adding attributes to the navbar */
-header navbar ul {
-    list-style-type: none;
+
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,23 +37,26 @@ header navbar ul {
     font-size: 20px;
 }
 
-/* Declaring each list item has to be inline adjusting positioning */
-header navbar ul li {
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Adding text color to the unordered list */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* font */
 p {
     font-size: 16px;
 }
 
+/* inserting and styling image block  */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,6 +66,7 @@ p {
     background-position: center;
 }
 
+/* Asigning where the images will float */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -72,12 +77,68 @@ p {
     margin-left: 25px;
 }
 
+/* Syling the main content section of the website */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+#search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styling for the content on hte right side (the benefits) */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -137,59 +198,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-#search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Styling the footer section of the website */
 
 footer {
     padding: 30px;
