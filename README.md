@@ -3,9 +3,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
 This project was done to understand how to use better semantics and properly incorporate comments throughout the code. This made the existing website more accessible and easy to understand. Although comments are great to use, sometimes we can go overboard, so I've learnt to cut back and comment when needed. 
 
 ## Link To Website
